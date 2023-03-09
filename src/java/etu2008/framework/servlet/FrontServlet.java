@@ -21,6 +21,10 @@ import javax.servlet.http.HttpServletResponse;
 //@WebServlet(name = "Front", urlPatterns = {"/Front"})
 public class FrontServlet extends HttpServlet {
     HashMap<String, Mapping> mapi=new HashMap<>();
+<<<<<<< Updated upstream
+=======
+    HashMap<String, Mapping> ma=new HashMap<>();
+>>>>>>> Stashed changes
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
